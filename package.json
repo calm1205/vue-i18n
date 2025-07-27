@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:en": "vite --mode en",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
