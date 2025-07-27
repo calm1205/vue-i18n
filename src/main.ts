@@ -10,11 +10,12 @@ const locale = import.meta.env.MODE === "en" ? "en" : "ja"
 const i18n = createI18n({
   locale,
   legacy: false,
-  fallbackLocale: "ja",
-  messages: { ja, en },
+  messages: {
+    ja,
+    en,
+  },
 })
 
 createApp(App).use(i18n).mount("#app")
-
 // 後から代入でlocaleを変更
 // i18n.global.locale.value = "ja"

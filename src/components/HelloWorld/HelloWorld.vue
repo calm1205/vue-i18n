@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n"
-import ja from "../../i18n/ja.json"
-import en from "../../i18n/en.json"
+import ja from "./i18n/ja.json"
+import en from "./i18n/en.json"
 
 type MessageSchema = typeof ja
 

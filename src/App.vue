@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n"
-
 import HelloWorld from "./components/HelloWorld/HelloWorld.vue"
 
-const { t } = useI18n()
+const { t } = useI18n({
+  inheritLocale: true,
+  useScope: "global",
+})
 </script>
 
 <template>
