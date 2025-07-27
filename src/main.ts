@@ -1,6 +1,8 @@
 import { createApp } from "vue"
 import { createI18n } from "vue-i18n"
 
+import ja from "./i18n/ja.json"
+import en from "./i18n/en.json"
 import "./style.css"
 import App from "./App.vue"
 
@@ -9,14 +11,7 @@ const i18n = createI18n({
   locale,
   legacy: false,
   fallbackLocale: "ja",
-  messages: {
-    ja: {
-      hello: "こんにちは",
-    },
-    en: {
-      hello: "Hello",
-    },
-  },
+  messages: { ja, en },
 })
 
 createApp(App).use(i18n).mount("#app")
