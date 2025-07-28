@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useHelloI18n } from "../composables/useHelloI18n"
 
+// ローカルスコープにするなら毎回定義が必要
 const { t } = useHelloI18n()
 </script>
 
