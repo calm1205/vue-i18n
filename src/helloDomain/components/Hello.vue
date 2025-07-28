@@ -8,7 +8,8 @@ const { t } = useHelloI18n()
   <h1>Hello: {{ t("hello.msg") }}</h1>
 
   <!-- key名が露呈 -->
-  <p>{{ t("world.msg") }}</p>
+  <!-- <p>{{ t("world.msg") }}</p> -->
 
-  <p>{{ t("globalScopeHello") }}</p>
+  <!-- グローバルスコープのメッセージ -->
+  <p>{{ $t("global.hello") }}</p>
 </template>

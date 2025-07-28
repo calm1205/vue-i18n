@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import { useI18n } from "vue-i18n"
 import Hello from "./helloDomain/components/Hello.vue"
 import World from "./worldDomain/components/World.vue"
-
-const { t } = useI18n()
+import PageOptions from "./optionsDomain/components/PageOptions.vue"
 </script>
 
 <template>
-  <p>{{ t("hello") }}</p>
+  <p>{{ $t("global.hello") }}</p>
   <Hello />
   <World />
+  <PageOptions />
 </template>

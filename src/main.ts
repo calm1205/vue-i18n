@@ -17,5 +17,3 @@ const i18n = createI18n<[typeof ja, typeof en], "ja" | "en">({
 })
 
 createApp(App).use(i18n).mount("#app")
-// 後から代入でlocaleを変更
-// i18n.global.locale.value = "ja"

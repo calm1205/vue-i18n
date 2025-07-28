@@ -1,4 +1,5 @@
 {
-  "hello": "Hello",
-  "globalScopeHello": "Hello, world!"
+  "global": {
+    "hello": "Hello"
+  }
 }

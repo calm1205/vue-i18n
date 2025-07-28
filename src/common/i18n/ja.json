@@ -1,4 +1,5 @@
 {
-  "hello": "こんにちは",
-  "globalScopeHello": "こんにちは, 世界"
+  "global": {
+    "hello": "こんにちは"
+  }
 }
