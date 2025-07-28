@@ -5,8 +5,5 @@ const { t } = useWorldI18n()
 </script>
 
 <template>
-  <h1>{{ t("msg") }}</h1>
-  <p>{{ t("msg") }}</p>
+  <h1>World: {{ t("world.msg") }}</h1>
 </template>
-
-<style scoped></style>

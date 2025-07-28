@@ -5,8 +5,10 @@ const { t } = useHelloI18n()
 </script>
 
 <template>
-  <h1>{{ t("msg") }}</h1>
-  <p>{{ t("msg") }}</p>
-</template>
+  <h1>Hello: {{ t("hello.msg") }}</h1>
 
-<style scoped></style>
+  <!-- key名が露呈 -->
+  <p>{{ t("world.msg") }}</p>
+
+  <p>{{ t("globalScopeHello") }}</p>
+</template>

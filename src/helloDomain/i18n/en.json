@@ -1,3 +1,5 @@
 {
-  "msg": "Hello, world!"
+  "hello": {
+    "msg": "Hello"
+  }
 }
