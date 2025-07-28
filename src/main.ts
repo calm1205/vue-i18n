@@ -7,7 +7,7 @@ import "./style.css"
 import App from "./App.vue"
 
 const locale = import.meta.env.MODE === "en" ? "en" : "ja"
-const i18n = createI18n({
+const i18n = createI18n<[typeof ja, typeof en], "ja" | "en">({
   locale,
   legacy: false,
   messages: {
