@@ -5,5 +5,10 @@ const { t } = useWorldI18n()
 </script>
 
 <template>
-  <h1>World: {{ t("world.msg") }}</h1>
+  <h1>
+    <!-- <span>world: </span> -->
+    <span>
+      {{ t("world.msg") }}
+    </span>
+  </h1>
 </template>

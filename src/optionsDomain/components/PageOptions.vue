@@ -1,11 +1,11 @@
 <script>
 import { useOptionsI18n } from "../composables/useOptionsI18n"
-import ChildOptions from "./ChildOptions.vue"
+import ChildOptionsComponent from "./ChildOptions.vue"
 
 export default {
-  name: "Options",
+  name: "PageOptions",
   components: {
-    ChildOptions,
+    ChildOptionsComponent,
   },
   created() {
     useOptionsI18n()
@@ -14,6 +14,11 @@ export default {
 </script>
 
 <template>
-  <h1>Options: {{ $t("options.msg") }}</h1>
-  <ChildOptions />
+  <h1>
+    <!-- <span>Options: </span> -->
+    <span>
+      {{ $t("options.msg") }}
+    </span>
+  </h1>
+  <ChildOptionsComponent />
 </template>
