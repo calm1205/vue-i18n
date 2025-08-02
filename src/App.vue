@@ -7,6 +7,6 @@ import PageOptionsComponent from "./optionsDomain/components/PageOptions.vue"
 <template>
   <p>{{ $t("global.hello") }}</p>
   <HelloComponent />
-  <WorldComponent />
   <PageOptionsComponent />
+  <WorldComponent />
 </template>
