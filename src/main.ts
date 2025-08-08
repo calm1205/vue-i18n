@@ -1,8 +1,8 @@
 import { createApp } from "vue"
 import { createI18n } from "vue-i18n"
 
-import ja from "./common/i18n/ja.json"
-import en from "./common/i18n/en.json"
+import ja from "./common/i18n/ja.yaml"
+import en from "./common/i18n/en.yaml"
 import App from "./App.vue"
 
 const locale = import.meta.env.MODE === "en" ? "en" : "ja"

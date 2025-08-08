@@ -11,7 +11,7 @@ export default [
     },
     settings: {
       "vue-i18n": {
-        localeDir: "src/**/i18n/*.json",
+        localeDir: "src/**/i18n/*.{json,yaml}",
         messageSyntaxVersion: "^11.0.0",
       },
     },
