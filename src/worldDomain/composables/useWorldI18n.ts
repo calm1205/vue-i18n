@@ -1,6 +1,8 @@
 import { useI18n } from "vue-i18n"
-import ja from "../i18n/ja.json"
-import en from "../i18n/en.json"
+// import ja from "../i18n/ja.json"
+// import en from "../i18n/en.json"
+import ja from "../i18n/ja.yaml"
+import en from "../i18n/en.yaml"
 
 export const useWorldI18n = () => {
   const i18n = useI18n<{ message: typeof ja & typeof en }, "ja" | "en">({

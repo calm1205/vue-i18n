@@ -7,8 +7,6 @@ const { t } = useWorldI18n()
 <template>
   <h1>
     <!-- <span>world: </span> -->
-    <span>
-      {{ t("world.msg") }}
-    </span>
+    <span> {{ t("world.msg") }} </span>
   </h1>
 </template>
