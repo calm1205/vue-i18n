@@ -5,6 +5,7 @@ import PageOptionsComponent from "./optionsDomain/components/PageOptions.vue"
 </script>
 
 <template>
+  <!-- <p>{{ $t("browse.contents.clause_data") }}</p> -->
   <p>{{ $t("global.hello") }}</p>
   <HelloComponent />
   <PageOptionsComponent />
